@@ -61,12 +61,12 @@ include 'db/config.php';
                     <input type="text" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputDate" class="form-label">Date</label>
-                    <input type="date" min="2023-06-20" max="2023-07-20" name="date" class="form-control" id="exampleInputDate" aria-describedby="emailHelp">
+                    <label for="datenow" class="form-label">Date</label>
+                    <input type="date" min="2023-06-22" max="2023-08-31" value="2023-01-01" name="date" class="form-control" id="datenow" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputTime" class="form-label">Time</label>
-                    <input type="time" name="time" class="form-control" id="exampleInputTime">
+                    <input type="time" min="12:00" max="16:00" step="1800" value="12:00" name="time" class="form-control" id="exampleInputTime">
                 </div>
                 <button type="submit" style="background-color:#F97B22;" class="btn btn-primary w-100 mb-2 border border-none">Book</button>
             </form>
